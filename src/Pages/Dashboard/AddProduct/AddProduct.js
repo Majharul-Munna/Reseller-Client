@@ -42,7 +42,7 @@ const AddProduct = () => {
             }
 
             // save doctor data to database
-            fetch('http://localhost:5000/addedProducts', {
+            fetch('https://re-seller-server.vercel.app/addedProducts', {
                 method: 'POST',
                 headers: {
                     'content-type' : 'application/json',

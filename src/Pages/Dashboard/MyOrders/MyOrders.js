@@ -8,7 +8,7 @@ const MyOrders = () => {
     
     const { user } = useContext(AuthContext);
 
-    const url = `http://localhost:5000/booking?email=${user?.email}`;
+    const url = `https://re-seller-server.vercel.app/booking?email=${user?.email}`;
 
     const { data: bookings = [], isLoading } = useQuery({
         queryKey: ['bookings', user?.email],

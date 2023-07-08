@@ -38,7 +38,7 @@ const router = createBrowserRouter([
                 element: <Login></Login>
             },
             {
-                path: '/blog',
+                path: '/about',
                 element: <Blog></Blog>
             },
             {
@@ -99,7 +99,7 @@ const router = createBrowserRouter([
             {
                 path: '/dashboard/payment/:id',
                 element: <BuyersRoute><Payment></Payment></BuyersRoute>,
-                loader: ({params}) => fetch(`http://localhost:5000/bookings/${params.id}`)
+                loader: ({params}) => fetch(`https://re-seller-server.vercel.app/bookings/${params.id}`)
             },
         ]
     }

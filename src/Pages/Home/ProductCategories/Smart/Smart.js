@@ -10,7 +10,7 @@ const Smart = () => {
     const {data: tvs = [], isLoading} = useQuery({
         queryKey: ['tvs'],
         queryFn: async() => {
-            const res = await fetch('http://localhost:5000/addedProducts')
+            const res = await fetch('https://re-seller-server.vercel.app/addedProducts')
             const data = await res.json();
             return data;
         }

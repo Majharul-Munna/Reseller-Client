@@ -11,7 +11,7 @@ const Led = () => {
     const {data: tvs = [], isLoading} = useQuery({
         queryKey: ['tvs'],
         queryFn: async() => {
-            const res = await fetch('https://re-seller-server.vercel.app/addedProducts')
+            const res = await fetch('https://re-seller-server.vercel.app/educationalCollection')
             const data = await res.json();
             return data;
         }

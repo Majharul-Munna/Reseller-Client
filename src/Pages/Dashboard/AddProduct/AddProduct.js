@@ -65,7 +65,7 @@ const AddProduct = () => {
 
     return (
         <div className='w-2/3 p-7'>
-            <h3 className='text-3xl'>Add a product</h3>
+            <h3 className='text-3xl my-5'>Add a product</h3>
             <form onSubmit={handleSubmit(handleAddProduct)}>
                 <div className='lg:flex'>
                     <div className='mr-3'>

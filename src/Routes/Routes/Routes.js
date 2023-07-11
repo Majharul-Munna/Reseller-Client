@@ -50,15 +50,15 @@ const router = createBrowserRouter([
                 element: <ProductCategories></ProductCategories>
             },
             {
-                path: '/crt',
+                path: '/etp',
                 element: <PrivateRoute><Crt></Crt></PrivateRoute>
             },
             {
-                path: '/led',
+                path: '/edp',
                 element: <PrivateRoute><Led></Led></PrivateRoute>
             },
             {
-                path: '/smart',
+                path: '/otp',
                 element: <PrivateRoute><Smart></Smart></PrivateRoute>
             }
         ]

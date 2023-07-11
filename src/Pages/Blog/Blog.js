@@ -1,7 +1,7 @@
 import React from 'react';
-import img1 from"../../assets/image/UmaidSir.jpg";
-import img2 from"../../assets/image/AsadSir.jpg";
-import img3 from"../../assets/image/Majharul.jpg";
+import img1 from "../../assets/image/UmaidSir.jpg";
+import img2 from "../../assets/image/AsadSir.jpg";
+import img3 from "../../assets/image/Majharul.jpg";
 
 const Blog = () => {
     return (
@@ -9,10 +9,41 @@ const Blog = () => {
 
 
 
-           
-            <div className="hero  bg-base-200">
-                <div className="hero-content h-50 flex-col lg:flex-row">
-                    <img src={img3} className=" max-w-sm rounded-lg shadow-2xl" alt='' />
+
+            <div className='flex mt-5'>
+                <div className="hero  bg-base-200">
+                    <div className="hero-content h-50 flex-col lg:flex-row">
+                        <img src={img1} className=" max-w-sm rounded-lg shadow-2xl" alt='' />
+                        <div>
+                            <h1 className="text-3xl text-blue-500 mb-2 font-bold">Supervisor</h1>
+                            <h1 className="text-2xl font-bold">Md Umaid Hasan</h1>
+                            <p className="">Lecturer</p>
+                            <p className="">Daffodil International University</p>
+                            <p className="">Email: umaid.cse@diu.edu.bd</p>
+                            <p className="">Phone: 01764390924</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="hero  bg-base-200">
+                    <div className="hero-content h-50 flex-col lg:flex-row">
+                        <img src={img2} className=" max-w-sm rounded-lg shadow-2xl" alt='' />
+                        <div>
+                            <h1 className="text-3xl text-blue-500 mb-2 font-bold">Co-Supervisor</h1>
+                            <h1 className="text-2xl font-bold">Md Assaduzzaman</h1>
+                            <p className="">Lecturer</p>
+                            <p className="">Daffodil International University</p>
+                            <p className="">Email: assaduzzaman.cse@diu.edu.bd</p>
+                            <p className="">Phone: 01824089009</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div className="hero h-30 bg-base-200">
+                <div className="hero-content flex-col lg:flex-row">
+                    <img src={img3} className=" max-w-sm rounded-lg h-20 shadow-2xl" alt='' />
                     <div>
                         <h1 className="text-3xl text-blue-500 mb-2 font-bold">Presenter</h1>
                         <h1 className="text-2xl font-bold">Md. Majharul Islam Munna</h1>
@@ -23,38 +54,6 @@ const Blog = () => {
                     </div>
                 </div>
             </div>
-
-            <div className='flex mt-5'>
-            <div className="hero  bg-base-200">
-                <div className="hero-content flex-col lg:flex-row">
-                    <img src={img1} className=" max-w-sm rounded-lg shadow-2xl" alt='' />
-                    <div>
-                        <h1 className="text-3xl text-blue-500 mb-2 font-bold">Supervisor</h1>
-                        <h1 className="text-2xl font-bold">Md Umaid Hasan</h1>
-                        <p className="">Lecturer</p>
-                        <p className="">Daffodil International University</p>
-                        <p className="">Email: umaid.cse@diu.edu.bd</p>
-                        <p className="">Phone: 01764390924</p>
-                    </div>
-                </div>
-            </div>
-            <div className="hero  bg-base-200">
-                <div className="hero-content flex-col lg:flex-row">
-                    <img src={img2} className=" max-w-sm rounded-lg shadow-2xl" alt='' />
-                    <div>
-                        <h1 className="text-3xl text-blue-500 mb-2 font-bold">Co-Supervisor</h1>
-                        <h1 className="text-2xl font-bold">Md Assaduzzaman</h1>
-                        <p className="">Lecturer</p>
-                        <p className="">Daffodil International University</p>
-                        <p className="">Email: assaduzzaman.cse@diu.edu.bd</p>
-                        <p className="">Phone: 01824089009</p>
-                    </div>
-                </div>
-            </div>
-            </div>
-
-
-
 
 
             {/* <div className="collapse collapse-plus bg-base-200">

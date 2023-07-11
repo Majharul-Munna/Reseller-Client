@@ -1,0 +1,41 @@
+[
+    {
+        "title": "Table",
+        "original_rice": "500",
+        "condition": "good",
+        "contact": "01998889999",
+        "location": "",
+        "category": "Educational",
+        "resale_price": "400",
+        "used_years": "1",
+        "published_date": "7-9-20223",
+        "seller_name": "mn",
+        "img": "https://i.ibb.co/dPQ09tB/table.jpg"
+    },
+    {
+        "title": "Chair",
+        "original_rice": "400",
+        "condition": "good",
+        "contact": "01997799988",
+        "location": "Dhaka",
+        "category": "Educational",
+        "resale_price": "300",
+        "used_years": "1",
+        "published_date": "7-9-20223",
+        "seller_name": "mu",
+        "img": "https://i.ibb.co/sK6FvJL/chair.jpg"
+    },
+    {
+        "title": "Bed",
+        "original_rice": "2000",
+        "condition": "good",
+        "contact": "01998889999",
+        "location": "Dhaka",
+        "category": "Educational",
+        "resale_price": "1500",
+        "used_years": "2",
+        "published_date": "7-9-20223",
+        "seller_name": "ml",
+        "img": "https://i.ibb.co/wz1ycn1/bed.jpg"
+    }
+]

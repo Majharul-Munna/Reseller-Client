@@ -18,7 +18,7 @@ const ProductCategories = () => {
                     <h2 className="card-title">Electronics and Technology Products</h2>
                     <p>Looking for sell or buy a Electronics or Technology Products. This is the best place for best deal.</p>
                     <div className="card-actions justify-end">
-                    <Link to='/crt' className="btn btn-secondary">See Deals</Link>
+                    <Link to='/etp' className="btn btn-secondary">See Deals</Link>
                     </div>
                 </div>
             </div>
@@ -28,7 +28,7 @@ const ProductCategories = () => {
                     <h2 className="card-title">Educational Products</h2>
                     <p>Need some crazy experience with Educational Products. Sell you old LED TV with best price and buy a Educational Product for you.</p>
                     <div className="card-actions justify-end">
-                    <Link to='/led' className="btn btn-secondary">See Deals</Link>
+                    <Link to='/edp' className="btn btn-secondary">See Deals</Link>
                     </div>
                 </div>
             </div>
@@ -38,7 +38,7 @@ const ProductCategories = () => {
                     <h2 className="card-title">Other Products</h2>
                     <p>Are you looking for best deal on Others Product. This is bet most popular and relatable place to buy or sell your Other Products</p>
                     <div className="card-actions justify-end">
-                    <Link to='/smart' className="btn btn-secondary">See Deals</Link>
+                    <Link to='/otp' className="btn btn-secondary">See Deals</Link>
                     </div>
                 </div>
             </div>
